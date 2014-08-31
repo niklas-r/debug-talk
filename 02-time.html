@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>console.time</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>console.time</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.time(label)</h3>
+          </div>
+          <div class="panel-body">
+            Starts a new timer with an associated label. When <code>console.timeEnd()</code> is called with the same label, the timer is stopped the elapsed time displayed in the Console. Timer values are accurate to the sub-millisecond.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.timeEnd(label)</h3>
+          </div>
+          <div class="panel-body">
+            Stops the timer with the specified label and prints the elapsed time.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/02-time.js"></script>
+</body>
+</html>
