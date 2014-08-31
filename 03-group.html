@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>console.group</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>console.group</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.group(object[, object, ...])</h3>
+          </div>
+          <div class="panel-body">
+            <p>Starts a new logging group with an optional title. All console output that occurs after calling this method and calling <code>console.groupEnd()</code> appears in the same visual group.</p>
+            <p><code>console.groupCollapsed(object[, object, ...])</code> creates a new logging group that is initially collapsed instead of open, as with console.group().</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.groupEnd()</h3>
+          </div>
+          <div class="panel-body">
+            Closes the most recently created logging group that previously created with <code>console.group()</code> or <code>console.groupCollapsed()</code>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/03-group.js"></script>
+</body>
+</html>

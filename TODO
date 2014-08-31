@@ -1,8 +1,11 @@
 Parts to add:
   ✔ Console.logs @done (14-08-31 16:17)
-  ☐ Console.time
+  ☐ Console.dir
+  ✔ Console.time @done (14-08-31 16:37)
   ☐ Console.group
+  ☐ Console.table
   ☐ Debugger
   ☐ Workspaces
   ☐ Watches
+  ☐ Emulate devices
   ☐ Bonus stuff (keys, blingbling, ctrl + l etc)
