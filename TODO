@@ -1,8 +1,8 @@
 Parts to add:
   ✔ Console.logs @done (14-08-31 16:17)
-  ☐ Console.dir
+  ✔ Console.dir @done (14-08-31 17:19)
   ✔ Console.time @done (14-08-31 16:37)
-  ☐ Console.group
+  ✔ Console.group @done (14-08-31 17:08)
   ☐ Console.table
   ☐ Debugger
   ☐ Workspaces
