@@ -22,3 +22,5 @@ console.info("This is so %i", l33t);
 console.warn("I'm just a warning");
 
 error();
+
+console.log("%cStyled :)", 'background-color: yellow;')
