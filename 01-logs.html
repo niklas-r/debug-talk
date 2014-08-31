@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console.logs</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>console.log and friends</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              console.log(object [, object, ...])
+            </h3>
+          </div>
+          <div class="panel-body">Displays a message in the console. You pass one or more objects to this method, each of which are evaluated and concatenated into a space-delimited string.</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.info(object [, object, ...])</h3>
+          </div>
+          <div class="panel-body">Same functionality as <code>console.log()</code> but styled with an info sign.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.warn(object [, object, ...])</h3>
+          </div>
+          <div class="panel-body">
+            Also same functionality as <code>console.log()</code> but styled with a warning sign.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">console.error(object [, object, ...])</h3>
+          </div>
+          <div class="panel-body">
+            Similar to <code>console.log()</code>, <code>console.error()</code> and also includes a stack trace from where the method was called. Doesn't halt code execution as an uncaught exception would.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/01-logs.js"></script>
+</body>
+</html>
