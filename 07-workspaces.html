@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>workspaces and magic boxes</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style>
+    .animating-box {
+      width: 150px;
+      height: 150px;
+      background-color: #bada55;
+      animation: sideways 2s ease-in-out infinite alternate;
+
+    }
+
+    @keyframes sideways {
+      from {
+        transform: translateX(0%)
+      }
+      to {
+        transform: translateX(150%)
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>workspaces and magic boxes</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-2">
+        <ul class="list-group">
+          <li class="list-group-item">Workspaces</li>
+          <li class="list-group-item">Snippets</li>
+          <li class="list-group-item">Magic boxes</li>
+          <li class="list-group-item">Animations debugging</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="animatingBox">
+      <div class="col-sm-12">
+        <div class="animating-box"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
