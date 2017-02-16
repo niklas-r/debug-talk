@@ -5,7 +5,10 @@ function deleteJumbotron () {
 
 function getData () {
   var xhr = new XMLHttpRequest()
-  xhr.onload = function () { console.log(this.responseText) }
+  xhr.onload = function () {
+    var response = this.responseText
+    console.log(response)
+  }
   xhr.open('get', 'dataz.json', true)
   xhr.send()
 }
