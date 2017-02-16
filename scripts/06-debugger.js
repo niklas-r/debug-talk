@@ -17,3 +17,11 @@ function listenForClick () {
     console.log('click!')
   })
 }
+
+function fårLoop () {
+  var i = 3
+  var watchMePlz
+  for (i; i > 0; i--) {
+    watchMePlz = Math.pow(i, i)
+  }
+}
