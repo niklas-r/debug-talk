@@ -1,26 +1,26 @@
 var myObj = {
-  name: "Niklas",
+  name: 'Niklas',
   age: 25,
-  employer: "Chas"
-};
-
-var l33t = 1337;
-
-function error() {
-  function makeError() {
-    console.error('Woops!');
-  }
-  makeError();
+  employer: 'Chas'
 }
 
-console.log("%s %O", "I'm logging an object", myObj);
+var l33t = 1337
 
-console.debug("Debugging...");
+function error () {
+  function makeError () {
+    console.error('Woops!')
+  }
+  makeError()
+}
 
-console.info("This is so %i", l33t);
+console.log('%s %O', "I'm logging an object", myObj)
 
-console.warn("I'm just a warning");
+console.debug('Debugging...')
 
-error();
+console.info('This is so %i', l33t)
 
-console.log("%cStyled :)", 'background-color: yellow;')
+console.warn("I'm just a warning")
+
+error()
+
+console.log('%cStyled :)', 'background-color: yellow;')
